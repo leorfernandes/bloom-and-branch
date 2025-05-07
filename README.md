@@ -24,7 +24,7 @@ This project demonstrates proficiency in React, Context API, and modern web deve
 
 ## Live Demo
 
-Experience the project live: [Bloom and Branch](https://your-live-demo-link.com)
+Experience the project live: [Bloom and Branch](https://bloom-and-branch.vercel.app/)
 
 ---
 
