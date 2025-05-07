@@ -1,46 +1,156 @@
-# Getting Started with Create React App
+# Bloom and Branch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Bloom and Branch** is a mock e-commerce website designed to showcase a modern and responsive online shopping experience. Key features include:
 
-## Available Scripts
+- Product listing and detailed product pages.
+- Shopping cart functionality with real-time updates.
+- Wishlist management for saving favorite items.
+- Interactive toast notifications for user feedback.
+- Responsive design for seamless use across devices.
 
-In the project directory, you can run:
+This project demonstrates proficiency in React, Context API, and modern web development practices.
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- **Product Catalog**: Browse a variety of products with detailed descriptions and images.
+- **Shopping Cart**: Add, remove, and manage items in the cart.
+- **Wishlist**: Save favorite products for future reference.
+- **Responsive Design**: Optimized for both desktop and mobile devices.
+- **Interactive Feedback**: Toast notifications for actions like adding items to the cart or wishlist.
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Live Demo
 
-### `npm run build`
+Experience the project live: [Bloom and Branch](https://your-live-demo-link.com)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screenshots
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Homepage
+![Homepage](public/images/screenshots/homepage.png)
 
-### `npm run eject`
+### Product Details
+![Product Details](public/images/screenshots/product-details.png)
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### Shopping Cart
+![Shopping Cart](public/images/screenshots/shopping-cart.png)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Getting Started
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Follow these steps to set up and run the project locally.
+
+### Prerequisites
+
+Ensure the following are installed on your system:
+
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/your-username/bloom-and-branch.git
+    cd bloom-and-branch
+    ```
+
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
+
+### Running the Application
+
+Start the development server:
+```bash
+npm start
+```
+
+This will open the app in your default browser at `http://localhost:3000`. The app will automatically reload if you make changes to the source code.
+
+---
+
+### Running Tests
+
+Run tests in watch mode:
+```bash
+npm test
+```
+
+For more details, refer to the testing documentation.
+
+---
+
+### Building for Production
+
+Create a production-ready build:
+```bash
+npm run build
+```
+
+The optimized build will be available in the `build` folder. For deployment instructions, see the deployment documentation.
+
+---
+
+### Ejecting
+
+If you need to customize the build configuration, you can eject:
+```bash
+npm run eject
+```
+
+> **Note**: This is a one-way operation and cannot be undone. Use with caution.
+
+---
+
+## Built With
+
+- **React**: Frontend library.
+- **React Router**: Routing.
+- **React Toastify**: Notifications.
+- **Context API**: State management.
+- **CSS**: Styling.
+
+---
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. Fork the repository.
+2. Create your feature branch:
+    ```bash
+    git checkout -b feature/AmazingFeature
+    ```
+3. Commit your changes:
+    ```bash
+    git commit -m 'Add some AmazingFeature'
+    ```
+4. Push to the branch:
+    ```bash
+    git push origin feature/AmazingFeature
+    ```
+5. Open a pull request.
+
+For major changes, please open an issue first to discuss your ideas.
+
+---
+
+## License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
 
 ## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Create React App Documentation](https://create-react-app.dev/docs/getting-started/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Happy coding!
